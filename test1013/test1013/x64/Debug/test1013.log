@@ -1,0 +1,4 @@
+﻿源.obj : error LNK2019: 无法解析的外部符号 "int __cdecl Add(int,int)" (?Add@@YAHHH@Z)，函数 main 中引用了该符号
+    已定义且可能匹配的符号上的提示:
+      Add
+E:\prgm\C\代码\test1013\x64\Debug\test1013.exe : fatal error LNK1120: 1 个无法解析的外部命令
