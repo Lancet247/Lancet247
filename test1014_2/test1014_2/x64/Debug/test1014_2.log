@@ -1,0 +1,3 @@
+﻿  源.c
+E:\prgm\C\代码\test1014_2\test1014_2\源.c(22,8): warning C4477: “scanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“unsigned int”
+  test1014_2.vcxproj -> E:\prgm\C\代码\test1014_2\x64\Debug\test1014_2.exe
