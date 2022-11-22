@@ -1,0 +1,3 @@
+﻿  源.c
+E:\prgm\C\代码\test1109\test1109\源.c(51,1): warning C4133: “初始化”: 从“int *”到“char *”的类型不兼容
+  test1109.vcxproj -> E:\prgm\C\代码\test1109\x64\Debug\test1109.exe
