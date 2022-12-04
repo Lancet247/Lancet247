@@ -1,0 +1,23 @@
+C51 COMPILER V9.01   TEST925                                                               11/23/2022 21:42:23 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE TEST925
+OBJECT MODULE PLACED IN test925.OBJ
+COMPILER INVOKED BY: D:\apps\keil\C51\BIN\C51.EXE test925.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include<reg51.h>
+   2          void main()
+   3          {
+   4   1              unsigned char i = 0;
+   5   1              ACC = i+1;
+   6   1              while
+   7   1              {
+*** ERROR C141 IN LINE 7 OF TEST925.C: syntax error near '{', expected '('
+   8   2                      P1 = ACC;
+   9   2              }
+  10   1      }
+  11          
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)

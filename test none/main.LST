@@ -1,0 +1,60 @@
+A51 MACRO ASSEMBLER  MAIN                                                                 09/22/2022 15:40:11 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.02
+NO OBJECT MODULE REQUESTED
+ASSEMBLER INVOKED BY: D:\apps\keil\C51\BIN\A51.EXE main.asm SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+                       1     assume cs:abc
+*** _________________________^
+*** ________________________________^
+*** ERROR #A9 IN 1 (main.asm, LINE 1): SYNTAX ERROR
+*** ERROR #A7 IN 1 (main.asm, LINE 1): LABEL NOT PERMITTED
+                       2     abc segment
+*** ____________________________________^
+*** ERROR #A24 IN 2 (main.asm, LINE 2): SEGMENT TYPE EXPECTED
+0000                   3                     mov ax, 0001
+*** _____________________________________________^
+*** ERROR #A45 IN 3 (main.asm, LINE 3): UNDEFINED SYMBOL (PASS-2)
+0003                   4                     add ax, ax
+*** _____________________________________________^
+*** _________________________________________________^
+*** ERROR #A39 IN 4 (main.asm, LINE 4): REGISTER OPERAND EXPECTED
+*** ERROR #A45 IN 4 (main.asm, LINE 4): UNDEFINED SYMBOL (PASS-2)
+0003                   5                     add ax, ax
+*** _____________________________________________^
+*** _________________________________________________^
+*** ERROR #A39 IN 5 (main.asm, LINE 5): REGISTER OPERAND EXPECTED
+*** ERROR #A45 IN 5 (main.asm, LINE 5): UNDEFINED SYMBOL (PASS-2)
+                       6             
+0003                   7                     mov ax, 4c00H
+*** _____________________________________________^
+*** ERROR #A45 IN 7 (main.asm, LINE 7): UNDEFINED SYMBOL (PASS-2)
+                       8                     int 21H
+*** _________________________________________^
+*** ERROR #A9 IN 8 (main.asm, LINE 8): SYNTAX ERROR
+                       9     abc ends
+*** _________________________^
+*** ERROR #A9 IN 9 (main.asm, LINE 9): SYNTAX ERROR
+                      10     end     
+A51 MACRO ASSEMBLER  MAIN                                                                 09/22/2022 15:40:11 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+ABC. . . . . . . .    ----   -----       
+ASSUME . . . . . .    ----   -----       
+AX . . . . . . . .    ----   -----       
+ENDS . . . . . . .    ----   -----       
+INT. . . . . . . .    ----   -----       
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 11 ERROR(S)

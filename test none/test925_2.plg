@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\编程\keil\test925_2.uvproj
+Project File Date:  09/25/2022
+
+<h2>Output:</h2>
+Build target '目标 1'
+compiling test925_2.c...
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  MAIN
+    MODULE:  D:\APPS\KEIL\C51\LIB\C51S.LIB (?C_INIT)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  MAIN
+    MODULE:  D:\APPS\KEIL\C51\LIB\C51S.LIB (?C_INIT)
+    ADDRESS: 0010H
+Program Size: data=9.0 xdata=0 code=144
+"test925_2" - 0 Error(s), 2 Warning(s).
+Build target '目标 1'
+assembling STARTUP.A51...
+compiling test925_2.c...
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  MAIN
+    MODULE:  D:\APPS\KEIL\C51\LIB\C51S.LIB (?C_INIT)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  MAIN
+    MODULE:  D:\APPS\KEIL\C51\LIB\C51S.LIB (?C_INIT)
+    ADDRESS: 0010H
+Program Size: data=9.0 xdata=0 code=144
+"test925_2" - 0 Error(s), 2 Warning(s).
+compiling test925_2.c...
+TEST925_2.C(8): error C141: syntax error near '{', expected '('
+test925_2.c - 1 Error(s), 0 Warning(s).
+Build target '目标 1'
+compiling test925_2.c...
+TEST925_2.C(8): error C141: syntax error near '{', expected '('
+目标未创建
+Build target '目标 1'
+compiling test925_2.c...
+TEST925_2.C(8): error C141: syntax error near '{', expected '('
+目标未创建
+Build target '目标 1'
+assembling STARTUP.A51...
+compiling test925_2.c...
+TEST925_2.C(8): error C141: syntax error near '{', expected '('
+目标未创建
